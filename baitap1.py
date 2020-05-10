@@ -12,7 +12,7 @@ dadung=[]
 for i in range(timmax(a)+1):
     dadung.append(False)
 
-for i in range(0,len(a)-1):
+for i in range(0,len(a)):
     for j in range(0, len(a)):
         if a[i]*a[j]==256 and dadung[a[i]]==False and dadung[a[j]]==False and i != j:
             print(a[i],a[j],i,j)
